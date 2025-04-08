@@ -1,0 +1,21 @@
+
+body{
+	display: flex;
+	margin: 0px;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.nav-menu ul{
+	list-style-type: none;
+	background-color: rgb(221, 221, 221);
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	padding: 20px;
+	margin: 0px;
+}
+
+#presentation {
+	justify-content: center;
+}
