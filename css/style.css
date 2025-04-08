@@ -3,7 +3,6 @@ body{
 	display: flex;
 	margin: 0px;
 	flex-direction: column;
-	flex-wrap: wrap;
 }
 
 .nav-menu ul{
@@ -11,11 +10,43 @@ body{
 	background-color: rgb(221, 221, 221);
 	display: flex;
 	justify-content: space-around;
-	align-content: space-around;
+	align-content: center;
 	padding: 20px;
 	margin: 0px;
 }
 
+
 #presentation {
+	display: flex;
+	flex-wrap: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px;
+}
+
+
+#accroche {
+	flex : 1;
+	display: flex;
+	margin: 20px;
+	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+}
+
+#accroche article {
+	text-align: left;
+}
+
+#pp {
+	align-self: center;
+	margin-right: 20px;
+
+}
+
+#pp img{
+	margin-top: 20px;
+	width: 400px;
+	height: 350px;
+	border-radius: 40px;
 }
