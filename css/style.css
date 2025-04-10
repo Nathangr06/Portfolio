@@ -1,37 +1,64 @@
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url(/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-regular";
+  src: url(/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBoldItalic";
+  src: url(/fonts/Montserrat/static/Montserrat-SemiBoldItalic.ttf);
+}
+
+
 
 body{
 	display: flex;
 	margin: 0px;
 	flex-direction: column;
+	font-family: "Montserrat-regular";
+	color: white;
+	background: #2b2b2b;
 }
 
 .nav-menu ul{
 	list-style-type: none;
-	background-color: rgb(221, 221, 221);
 	display: flex;
+	background-color: #202020;
 	justify-content: space-around;
 	align-content: center;
 	padding: 20px;
 	margin: 0px;
+	font-family: "Montserrat-bold";
 }
 
 #accroche{
 	display: flex;
-	margin: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
-	
+	gap: 10%;
 }
 
 #accroche p{
-	align-self: flex-start;
-	flex: 1;
+	margin-right: 20%;
+	background-color: red;
 }
 
 #accroche img {
 	max-width: 100%;
 	height: auto;
+	border-radius: 10%;
+}
 
+
+div {
+	width: 50%;
 }
