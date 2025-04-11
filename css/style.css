@@ -1,3 +1,5 @@
+/* Importation des fonts */
+
 @font-face {
     font-family: "Montserrat-bold";
     src: url(/fonts/Montserrat/static/Montserrat-Bold.ttf);
@@ -14,7 +16,6 @@
 }
 
 
-
 body{
 	display: flex;
 	margin: 0px;
@@ -22,43 +23,109 @@ body{
 	font-family: "Montserrat-regular";
 	color: white;
 	background: #2b2b2b;
+	margin-left: 14vw;
+	margin-right: 14vw;
 }
 
-.nav-menu ul{
-	list-style-type: none;
+
+.nav-menu {
+	width: 70vw;
 	display: flex;
-	background-color: #202020;
-	justify-content: space-around;
-	align-content: center;
-	padding: 20px;
+	padding: 0px;
 	margin: 0px;
-	font-family: "Montserrat-bold";
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.25rem;
+}
+
+
+a:hover{
+	color: rgb(90, 92, 92);
+}
+
+#nav-menu_Title{
+	display: flex;
+	color: #c9c9c9;
+}
+
+#nav-menu_Sections{
+	display: flex;
+	justify-content: space-evenly;
+	width: 25vw;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+section {
+	display: flex;
 }
 
 #accroche{
 	display: flex;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-top: 5%;
-	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	padding: 20px;
-	gap: 10%;
+	font-size: 4.3125rem;
+	text-align: center;
 }
 
-#accroche p{
-	margin-right: 20%;
-	background-color: red;
+
+#about-me {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
-#accroche img {
-	max-width: 100%;
-	height: auto;
+#about-me img{
 	border-radius: 10%;
 }
 
+#about-me_Title{
+	display: flex;
+	align-self: flex-start;
+	font-size: 2.625rem;
+	justify-content: flex-start;
+	color: #c9c9c9;
 
-div {
-	width: 50%;
 }
+
+#about-me_Content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap:10%;
+	font-size: 1.8rem;
+}
+
+
+#projects{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+#projects_Title{
+	display: flex;
+	font-size: 2.625rem;
+	color: #c9c9c9;
+}
+
+
+
+
+#footer_Title{
+	font-size:2.625rem;
+	color: #c9c9c9;
+
+}
+
+#footer_Lien{
+	display: flex;
+	justify-content: space-between;
+}
+
+
