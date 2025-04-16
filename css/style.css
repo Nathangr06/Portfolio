@@ -20,12 +20,11 @@ body{
 	display: flex;
 	margin: 0px;
 	flex-direction: column;
-	font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif; /*"Montserrat-regular"*/
+	font-family: 'Segoe UI',Tahoma,Verdana,sans-serif;
 	color: white;
 	background: #242424;
 	margin-left: 14vw;
 	margin-right: 14vw;
-	flex-wrap: wrap;
 }
 
 
@@ -151,10 +150,11 @@ section {
 }
 
 
-.containter-img-projects{
+.contaiter-img-projects{
+	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 10v;
+	width: 10vw;
 }
 
 
