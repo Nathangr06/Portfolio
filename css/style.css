@@ -98,6 +98,11 @@ section {
 	align-items: center;
 	gap:10%;
 	font-size: 1.8rem;
+	text-align: flex-start;
+}
+
+#about-me-content{
+	width: 70;
 }
 
 
